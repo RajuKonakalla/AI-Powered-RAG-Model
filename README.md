@@ -12,6 +12,7 @@
 - [Skills Utilized](#skills-utilized)  
 - [Technologies](#technologies)  
 - [Installation](#installation)  
+- [Dependencies](#dependencies)  
 - [Usage](#usage)  
 - [Contributing](#contributing)  
 - [License](#license)  
@@ -91,7 +92,7 @@ This project combines advanced AI techniques and robust software engineering to 
 
 1. Clone the repository:  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rajukonkalla/AI-Powered-RAG-Model.git
    cd rag
    ```
 2. (Optional) Create and activate a virtual environment:  
@@ -103,6 +104,36 @@ This project combines advanced AI techniques and robust software engineering to 
    ```bash
    pip install -r requirements.txt
    ```
+
+---
+
+## Dependencies
+
+The project requires the following Python packages, which are listed in `requirements.txt`. To install all dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+Key dependencies include (but are not limited to):
+
+- streamlit
+- pymongo
+- bcrypt
+- faiss-cpu
+- chromadb
+- sentence-transformers
+- transformers
+- torch
+- python-docx
+- PyPDF2
+- requests
+- beautifulsoup4
+- SpeechRecognition
+- langchain
+- ollama
+
+Please refer to the `requirements.txt` file for the complete list and exact versions.
 
 ---
 
